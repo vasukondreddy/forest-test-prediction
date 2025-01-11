@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: my-flask-ml-service
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python application.py"
+ 
